@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".FruitDetailActivity">
+
+    <ImageView
+        android:id="@+id/img_fruits"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginVertical="32dp"
+        android:src="@drawable/strawberry"/>
+
+    <TextView
+        android:id="@+id/txt_fruits_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Nama Buah"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txt_fruits_family"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_red"
+        android:fontFamily="@font/poppins_bold"
+        android:text="rosaceae"/>
+
+    <TextView
+        android:id="@+id/txt_fruits_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        android:fontFamily="@font/poppins_regular"/>
+
+</LinearLayout>
